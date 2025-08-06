@@ -1,7 +1,7 @@
 # 🔍 Monitor de Conectividad por Ping
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-brightgreen)
+![Estado](https://img.shields.io/badge/Estado-Finalizado-blue)
 ![Sistema](https://img.shields.io/badge/SO-Windows-lightgrey)
 
 Este es un programa de escritorio en Python que permite monitorear el estado de conexión de múltiples dispositivos en red mediante ping. Fue diseñado con una interfaz gráfica Tkinter, pensado especialmente para entornos donde se requiere supervisar equipos de comunicación como routers, switches, estaciones de peaje o centros de monitoreo.
@@ -46,7 +46,9 @@ Este es un programa de escritorio en Python que permite monitorear el estado de 
 
 El archivo que se carga debe ser un `.txt` con el siguiente formato:
 
+
 192.168.1.1  R  Router_Principal
+
 192.168.1.10 SW Switch_Central
 
 
