@@ -1,0 +1,26 @@
+# Archivos y carpetas comunes a ignorar en proyectos Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.bak
+*.tmp
+*.db
+
+# Archivos específicos del proyecto
+historial_perdidas.xlsx
+historial_perdidas.txt
+
+# Archivos generados por PyInstaller o build
+dist/
+build/
+*.spec
+
+# Archivos ocultos del sistema (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+.env/
